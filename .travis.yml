@@ -7,4 +7,4 @@ before_install:
   - docker build -t diiegg/docker-react -f Dockerfile.dev .
 
 script:
-    - docker run diiegg/docker-react npm run test -- --  coverage
+  - docker run diiegg/docker-react npm run test -- --coverage
